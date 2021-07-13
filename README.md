@@ -1,8 +1,14 @@
 # Extension Pack for Go
 
-[![forthebadge](https://forthebadge.com/images/badges/gluten-free.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/uses-badges.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/ctrl-c-ctrl-v.svg)](https://forthebadge.com)
+![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/sheldonhull/extension-pack-go?style=for-the-badge)
+
+---
+
+![forthebadge](https://img.shields.io/badge/gluten-free-green?style=for-the-badge)
+![forthebadge](https://img.shields.io/badge/uses-badges-green?style=for-the-badge)
+![forthebadge](https://img.shields.io/badge/ctrlc-ctrlv-green?style=for-the-badge)
+
+---
 
 Extensions for usage with Go development.
 
