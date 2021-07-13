@@ -1,3 +1,12 @@
+<a name="1.0.6"></a>
+## 1.0.6 (2021-07-13)
+
+
+#### Bug Fixes
+
+* **x:** adjust path for image in package a2913c8c0d87137e2992fc7ea132fb4e9bd402fc
+
+
 <a name="1.0.5"></a>
 ## 1.0.5 (2021-07-13)
 
