@@ -2,6 +2,7 @@
     "name": "extension-pack-go",
     "displayName": "extension-pack-go",
     "description": "Standard Go (golang) development extensions by Sheldon Hull (sheldonhull.com)",
+    "publisher": "sheldon-hull",
     "icon": "gopher.png",
     "version": "0.0.1",
     "engines": {
