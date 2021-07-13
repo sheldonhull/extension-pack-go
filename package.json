@@ -3,7 +3,7 @@
     "displayName": "extension-pack-go",
     "description": "Standard Go (golang) development extensions by Sheldon Hull (sheldonhull.com)",
     "publisher": "sheldon-hull",
-    "icon": "gopher.png",
+    "icon": "gopher-128x128.png",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.58.0"
