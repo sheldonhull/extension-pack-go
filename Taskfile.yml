@@ -1,0 +1,18 @@
+# https://taskfile.dev
+
+version: '3'
+
+
+tasks:
+  default:
+    cmds:
+      - task --list
+    silent: true
+  init:
+    desc: setup tooling
+    cmds:
+    - npm install -g yo generator-code
+  new:
+    desc: new extension pack (which will generate a new git repo)
+    cmds:
+    - yo code
