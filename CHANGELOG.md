@@ -1,3 +1,12 @@
+<a name="1.0.5"></a>
+## 1.0.5 (2021-07-13)
+
+
+#### Bug Fixes
+
+* **i:** remove blocked url badge paths 834f77d987e6492bf5508d66d5f3f51e2ee8a9dd
+
+
 <a name="1.0.4"></a>
 ## 1.0.4 (2021-07-13)
 
