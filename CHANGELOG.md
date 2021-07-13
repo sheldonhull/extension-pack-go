@@ -1,3 +1,12 @@
+<a name="1.0.3"></a>
+## 1.0.3 (2021-07-13)
+
+
+#### Bug Fixes
+
+* **x:** add missing publisher to manifest 1d7df90f2ecf74094b8f7de8ecb4095fd9b71eed
+
+
 <a name="1.0.2"></a>
 ## 1.0.2 (2021-07-13)
 
