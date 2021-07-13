@@ -2,7 +2,6 @@
 
 version: '3'
 
-
 tasks:
   default:
     cmds:
@@ -11,8 +10,17 @@ tasks:
   init:
     desc: setup tooling
     cmds:
-    - npm install -g yo generator-code
+      - npm install -g yo generator-code
+      - npm install -g vsce
   new:
     desc: new extension pack (which will generate a new git repo)
     cmds:
-    - yo code
+      - yo code
+  package:
+    desc: package the extension
+    cmds:
+      - vsce package
+  publish:
+    desc: publish the packaged extension
+    cmds:
+      - vsce publish

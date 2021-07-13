@@ -2,8 +2,6 @@
 .vscode-test/**
 .gitignore
 vsc-extension-quickstart.md
-Taskfile.yml
-lefthook*
 .lefthook/
-squealer.yml
-.gitleaks.toml
+*.yml
+gopher.png

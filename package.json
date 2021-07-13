@@ -2,6 +2,7 @@
     "name": "extension-pack-go",
     "displayName": "extension-pack-go",
     "description": "Standard Go (golang) development extensions by Sheldon Hull (sheldonhull.com)",
+    "icon": "gopher.png",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.58.0"
@@ -16,7 +17,12 @@
         "jhnj.vscode-go-inline-sql",
         "maracko.json-to-go",
         "golang.go",
-        "jeff-hykin.better-go-syntax",
         "jinliming2.vscode-go-template"
-    ]
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/sheldonhull/extension-pack-go",
+    "repository": {
+        "url": "https://github.com/sheldonhull/extension-pack-go/issues",
+        "type": "git"
+    }
 }
