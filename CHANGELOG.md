@@ -1,3 +1,12 @@
+<a name="1.0.7"></a>
+## 1.0.7 (2021-07-13)
+
+
+#### Bug Fixes
+
+* **i:** adjust taskfile for publishing 3e98ebea7de9e51fc8682ec48930583c7170e9ec
+
+
 <a name="1.0.6"></a>
 ## 1.0.6 (2021-07-13)
 
