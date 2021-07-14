@@ -1,7 +1,8 @@
 # https://taskfile.dev
 
 version: '3'
-
+vars:
+  PUBLISHER_NAME: sheldon-hull
 tasks:
   default:
     cmds:
@@ -20,6 +21,10 @@ tasks:
     desc: package the extension
     cmds:
       - vsce package
+  auth:
+    desc: authenticate with cli for publishing
+    cmds:
+    - vsce login {{ .PUBLISHER_NAME }}
   publish:
     desc: publish the packaged extension
     cmds:
