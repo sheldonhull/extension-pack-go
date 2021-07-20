@@ -10,9 +10,18 @@ tasks:
     silent: true
   init:
     desc: setup tooling
+    env:
+      npm_config_loglevel: info
     cmds:
-      - npm install -g yo generator-code
-      - npm install -g vsce
+      - |
+        npm install -g yo generator-code
+        npm install -g vsce
+        go install github.com/evilmartians/lefthook@latest
+        go install github.com/owenrumney/squealer/cmd/squealer@latest
+        GO111MODULE=on go get github.com/zricethezav/gitleaks/v7
+        go install github.com/hekike/unchain@master
+        lefthook install
+
   new:
     desc: new extension pack (which will generate a new git repo)
     cmds:

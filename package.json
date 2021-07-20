@@ -13,7 +13,6 @@
     ],
     "extensionPack": [
         "msyrus.go-doc",
-        "766b.go-outliner",
         "liuchao.go-struct-tag",
         "jhnj.vscode-go-inline-sql",
         "maracko.json-to-go",
