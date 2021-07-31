@@ -1,4 +1,7 @@
 # https://taskfile.dev
+env:
+  TOOLS_DIRECTORY: 'tools'
+  GOBIN: '{{ .TOOLS_DIRECTORY }}'
 
 version: '3'
 vars:
@@ -14,6 +17,11 @@ tasks:
       npm_config_loglevel: info
     cmds:
       - |
+        {{if eq OS "windows"}}
+        powershell.exe -nologo -noexit -c "(New-Item '{{ .TOOLS_DIRECTORY }}' -ItemType Directory -Force).FullName"
+        {{else}}
+        mkdir '{{ .TOOLS_DIRECTORY }}'
+        {{end}}
         npm install -g yo generator-code
         npm install -g vsce
         go install github.com/evilmartians/lefthook@latest

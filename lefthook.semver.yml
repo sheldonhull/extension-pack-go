@@ -19,9 +19,9 @@ pre-push:
       tags: semver
       name: bump
       run: |
-        PRIOR_VERSION=`npm version
         unchain release
         echo "unchain: $(git describe --always)"
-        VERSION=`git describe --always`
-        npm version $VERSION && echo "bumped npm package version from [$PRIOR_VERSION] to [$VERSION]"
-        git add . && git commit --amend --no-edit --no-verify
+        npm version $(git describe --always)
+        echo "bumped npm package version to [$VERSION]"
+        git add .
+        git commit --amend --no-edit --no-verify

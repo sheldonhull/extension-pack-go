@@ -1,10 +1,10 @@
 {
     "name": "extension-pack-go",
-    "displayName": "extension-pack-go",
+    "displayName": "Go Extension Pack for Fellow Gophers",
     "description": "Standard Go (golang) development extensions by Sheldon Hull (sheldonhull.com)",
     "publisher": "sheldon-hull",
     "icon": "gopher-128x128.png",
-    "version": "0.0.1",
+    "version": "1.0.7",
     "engines": {
         "vscode": "^1.58.0"
     },
@@ -24,5 +24,10 @@
     "repository": {
         "url": "https://github.com/sheldonhull/extension-pack-go/issues",
         "type": "git"
-    }
+    },
+    "keywords": [
+        "go",
+        "golang",
+        "extension-pack"
+    ]
 }

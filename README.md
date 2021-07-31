@@ -12,6 +12,15 @@
 
 Extensions for usage with Go development.
 
+## What's Included
+
+- `go-doc`: Show documentation of go symbols and packages
+- `go-struct-tag`: A Visual Studio Code extension for auto complete the go struct tag when typing.
+- `vscode-go-inline-sql`: Syntax highlighting for inline sql in go
+- `json-to-go`: Convert JSON data to Go struct
+- `golang.go`: _The_ extension for Go that makes this all worth it.
+- `vscode-go-template`: Go Template Syntax Highlight Support for VSCode.
+
 ## Resources
 
 My Go cheatsheet: [docs/go](https://www.sheldonhull.com/docs/go)
