@@ -1,6 +1,6 @@
 module extension-pack-go
 
-go 1.16
+go 1.19
 
 require (
 	github.com/bwplotka/bingo v0.4.3 // indirect
